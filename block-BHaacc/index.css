@@ -149,7 +149,7 @@ body {
 }
 
 .col-1-2 {
-    flex: 0 1 50%;
+    flex: 0 1 46%;
 }
 
 .hero-heading {
@@ -272,7 +272,7 @@ progress::-webkit-progress-value{
 
 .article {
     background-color: white;
-    margin: 16px 0;
+    margin: 24px 0;
 
 }
 
@@ -320,4 +320,117 @@ progress::-webkit-progress-value{
 
 .wrap {
     flex-wrap: wrap;
+}
+
+
+/*our work */
+
+.col-1-4 {
+    flex: 0 1 22%;
+}
+
+.col-1-4 img {
+    width: 100%;
+}
+
+/*contact*/
+
+.contact {
+    background: linear-gradient(to right , var(--primary) ,var(--secondary));
+    
+}
+
+.contact .heading {
+    color: white;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    color: var(--text);
+    padding: 8px 12px;
+    border: 0;
+    border-radius: 6px;
+    padding: 16px 12px;
+    margin-top: 16px;
+}
+
+
+.flex-48 {
+    flex: 0 1 48%;
+}
+
+
+.contact .btn {
+    box-shadow: none;
+    outline: 0;
+    border: 0;
+    margin-top: 24px;
+}
+
+
+.map iframe {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.map {
+    text-align: center;
+}
+
+
+/*footer*/
+
+.flex-20 {
+    flex: 0 1 18%;
+}
+
+.footer {
+    background: linear-gradient(to right,#424242 , #010101);
+}
+
+.footer .container .flex {
+    align-items: flex-start;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
+
+hr{
+    
+    box-shadow: none;
+    background: white;
+    margin-top: 32px;
+}
+
+
+.footer-additional {
+    padding: 16px 0;
+    margin-right: 32px;
+}
+
+.footer-additional p {
+    margin-right: 24px;
+}
+
+.footer li {
+    margin-right: 24px;
+}
+
+small {
+    color: white;
 }
